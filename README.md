@@ -34,3 +34,15 @@ write_table(df_cleaned, engine, "cleaned_transactions")
 
 ```bash
 pip install autonomous-dq-agent
+
+
+# 🤖 Autonomous Data Quality Agent
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://autonomous-data-quality-agent-lejzddggm8vetbvnwpcmj.streamlit.app)
+
+A Python-based agent that automatically applies industry-specific data quality rules to any dataset. Upload CSVs, apply YAML configs, detect issues — all from a no-code UI.
+
+## 🔗 Live Demo
+
+👉 [Click to Launch the Web App](https://autonomous-data-quality-agent-lejzddggm8vetbvnwpcmj.streamlit.app)
+
