@@ -1,0 +1,12 @@
+industry: finance
+required_fields:
+  - account_id
+  - balance
+  - transaction_amount
+rules:
+  - name: Negative Balance Check
+    condition: balance < 0
+    action: flag
+  - name: Outlier Transaction
+    condition: transaction_amount > 100000
+    action: alert

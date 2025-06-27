@@ -1,0 +1,4 @@
+account_id,balance,transaction_amount
+1001,5000,150
+1002,-200,1000000
+1003,3000,250
