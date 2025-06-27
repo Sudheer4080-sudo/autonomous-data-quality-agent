@@ -29,3 +29,8 @@ engine = connect_db(
 df = read_table(engine, "raw_transactions")
 df_cleaned = ...  # process with your agent
 write_table(df_cleaned, engine, "cleaned_transactions")
+
+## 🚀 Installation
+
+```bash
+pip install autonomous-dq-agent
